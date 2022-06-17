@@ -9,6 +9,8 @@ import dmahadevan.leetcode.easy.longestcommonprefix;
 import dmahadevan.leetcode.easy.mergetwosortedlists;
 import dmahadevan.leetcode.easy.numberToWords;
 import dmahadevan.leetcode.easy.palindromenumber;
+import dmahadevan.leetcode.easy.reverseInteger;
+import dmahadevan.leetcode.easy.reverseString;
 import dmahadevan.leetcode.easy.romantointeger;
 import dmahadevan.leetcode.easy.rotatearray;
 import dmahadevan.leetcode.easy.stoi;
@@ -22,7 +24,13 @@ public class main_Class {
 
 	public static void main(String[] args) {
 		
-/*		
+
+		reverseInteger.reverseInteger(-10);
+		
+		/*
+		char[] s = {'h','e','l','l','o'};
+		reverseString.reverseString(s);
+ 		
 		// Longest Prefix
 		//String[] words  = {"flag", "flower", "flask"};
 		//String[] words  = {"car", "bus", "ship"};
@@ -102,7 +110,7 @@ public class main_Class {
 		result = topKFrequent.topkfrequent(nums, k);
 		for(i=0;i<k;i++) System.out.println(result[i] + " ");
 		
-*/
+
 	int nums[] = new int[30000];
 	int[] result;
 	for(int i=0;i<30000;i++) {
@@ -115,5 +123,6 @@ public class main_Class {
 		int[] x = {1, 2, 3, 4, 5, 6, 7};
 		int k = 2;
 		rotatearray.rotate(x, k);
+*/
 	}
 }
