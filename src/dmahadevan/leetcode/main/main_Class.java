@@ -25,7 +25,12 @@ public class main_Class {
 	public static void main(String[] args) {
 		
 
-		reverseInteger.reverseInteger(-10);
+		reverseInteger.reverseInteger(123);
+		reverseInteger.reverseInteger(1023);
+		reverseInteger.reverseInteger(12300);
+		reverseInteger.reverseInteger(-568);
+		reverseInteger.reverseInteger(123456789);
+		reverseInteger.reverseInteger(1534236469);
 		
 		/*
 		char[] s = {'h','e','l','l','o'};
